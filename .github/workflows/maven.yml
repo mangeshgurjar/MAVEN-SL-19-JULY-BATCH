@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: common-8gb
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
